@@ -1,5 +1,5 @@
 import express from 'express';             //подключаем express, node -v - версия
-import bodyParser from 'body-parser';      //mb for postman
+import bodyParser from 'body-parser';     
 
 import usersRoutes from './routes/users.js';
 
