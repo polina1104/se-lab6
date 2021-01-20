@@ -29,7 +29,7 @@ router.get('/:id', (req, res) => {
     res.send(foundUser);
 })
 
-//удачение пользователя. берется id -> false (!===) -> удаляется пользователь
+//удачение пользователя. если нашелся id, то юзер с ним удаляется
 router.delete('/:id', (req, res) => {
     const {id} = req.params;
 
